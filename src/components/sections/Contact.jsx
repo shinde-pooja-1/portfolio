@@ -81,7 +81,7 @@ export default function Contact() {
                 value={form.name}
                 onChange={handleChange}
                 className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-5 text-lg text-white placeholder-white/20 focus:outline-none focus:border-[var(--accent)] focus:ring-1 focus:ring-[var(--accent)] transition-all font-medium"
-                placeholder="John Doe"
+                placeholder="Enter your name..."
               />
             </div>
             <div className="flex flex-col gap-3">
@@ -97,7 +97,7 @@ export default function Contact() {
                 value={form.email}
                 onChange={handleChange}
                 className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-5 text-lg text-white placeholder-white/20 focus:outline-none focus:border-[var(--accent)] focus:ring-1 focus:ring-[var(--accent)] transition-all font-medium"
-                placeholder="john@example.com"
+                placeholder="Enter your email..."
               />
             </div>
             <div className="flex flex-col gap-3">
