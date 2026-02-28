@@ -75,7 +75,7 @@ export default function ProjectCard3D({ project, index }) {
           }}
           className="relative h-[250px] md:h-[320px] w-full overflow-hidden rounded-t-3xl bg-[#111118]"
         >
-          <div className="relative w-full overflow-hidden group">
+          <div className="relative w-full h-full overflow-hidden group">
             <div className="absolute inset-0 ">
               {project?.image ? (
                 <Image
